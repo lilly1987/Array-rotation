@@ -1,5 +1,6 @@
 #include <iostream> //std
 #include <string> //getline
+#include "배열출력.h"
 
 using namespace std;
 
@@ -185,6 +186,19 @@ int main(int argc, char* argv[]) {
 
 		// === 내용 출력 ===
 
+		arr_out2("원본↗", a, r, c);
+		arr_out2("원본↙", b, r, c);
+
+		arr_out2("90↗", a90, c, r);
+		arr_out2("90↙", b90, c, r);
+
+		arr_out2("180↗", a180, r, c);
+		arr_out2("180↙", b180, r, c);
+
+		arr_out2("270↗", a270, c, r);
+		arr_out2("270↙", b270, c, r);
+
+		/*
 		string s0 = "", s1 = "", s2 = "", s3 = "", s4 = "", s5 = "", s6 = "", s7 = "";
 
 		s0 += "원본↗\n";
@@ -238,7 +252,7 @@ int main(int argc, char* argv[]) {
 		cout << s5;
 		cout << s6;
 		cout << s7;
-
+		*/
 
 		// 메모리 해제
 
